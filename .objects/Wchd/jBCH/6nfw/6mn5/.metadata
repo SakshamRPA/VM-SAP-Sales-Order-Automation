@@ -1,0 +1,13 @@
+﻿{
+  "Name": "PasswordField Password",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "6mn5QP1OyUyHT59W1zAxVw",
+  "Reference": "qU8gtmfxNUyvZI94myvbqA/6mn5QP1OyUyHT59W1zAxVw",
+  "ParentRef": "qU8gtmfxNUyvZI94myvbqA/6nfwOlQYs0-7CWIaSmmZ2Q",
+  "Created": "2024-12-06T22:23:41.0384144Z",
+  "Updated": "2024-12-06T22:23:41.0384144Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

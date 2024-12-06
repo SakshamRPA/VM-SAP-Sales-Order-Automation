@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.1.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -43,7 +43,14 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b586d764-3c7c-419c-9d15-335cfb406e49",
+        "testCaseType": "TestCase",
+        "fileName": "CodedTestCase.cs"
+      }
+    ],
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",

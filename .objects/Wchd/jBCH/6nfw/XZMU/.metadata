@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Button Enter",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "XZMUzWc7L0uCmd9VNtvAPA",
+  "Reference": "qU8gtmfxNUyvZI94myvbqA/XZMUzWc7L0uCmd9VNtvAPA",
+  "ParentRef": "qU8gtmfxNUyvZI94myvbqA/6nfwOlQYs0-7CWIaSmmZ2Q",
+  "Created": "2024-12-06T22:23:41.0329446Z",
+  "Updated": "2024-12-06T22:23:41.0329446Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

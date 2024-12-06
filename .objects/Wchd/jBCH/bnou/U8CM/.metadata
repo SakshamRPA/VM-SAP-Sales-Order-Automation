@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Log On  Enter",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "U8CM-cnFjEqRWbdvhauElg",
+  "Reference": "qU8gtmfxNUyvZI94myvbqA/U8CM-cnFjEqRWbdvhauElg",
+  "ParentRef": "qU8gtmfxNUyvZI94myvbqA/bnouDLQUDUS8nP8jd0Pu5A",
+  "Created": "2024-12-06T22:23:41.0544618Z",
+  "Updated": "2024-12-06T22:23:41.0544618Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
