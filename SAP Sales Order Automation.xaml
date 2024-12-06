@@ -228,7 +228,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,755.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_3">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="ui:Image" Name="Screenshot" />
                             <Variable x:TypeArguments="x:String" Name="Tim" />
@@ -239,7 +239,7 @@
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="434,284.6666666666667" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Reason="Sales organization 100 does not exist" Status="Failed" TransactionItem="[current_Item_Dic]">
+                          <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="354,57.333333333333336" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Reason="Sales organization 100 does not exist" Status="Failed" TransactionItem="[current_Item_Dic]">
                             <ui:SetTransactionStatus.Analytics>
                               <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                             </ui:SetTransactionStatus.Analytics>
@@ -252,14 +252,14 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:SetTransactionStatus>
-                          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="434,124" sap2010:WorkflowViewState.IdRef="Delay_1">
+                          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="354,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_1">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </Delay>
-                          <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot 'saplogon.exe Create'" sap:VirtualizedContainerService.HintSize="434,139.33333333333334" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[Screenshot]">
+                          <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot 'saplogon.exe Create'" sap:VirtualizedContainerService.HintSize="354,57.333333333333336" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[Screenshot]">
                             <ui:TakeScreenshot.Target>
                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="24e70626-285d-4632-96d5-6f54a130d756" InformativeScreenshot="fb46182bcd37dbe87ee33bd16bbb8a1b" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Sales Documents' /&gt;">
                                 <ui:Target.TimeoutMS>
@@ -276,7 +276,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:TakeScreenshot>
-                          <Assign sap:VirtualizedContainerService.HintSize="434,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+                          <Assign sap:VirtualizedContainerService.HintSize="354,57.333333333333336" sap2010:WorkflowViewState.IdRef="Assign_1">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">[Tim]</OutArgument>
                             </Assign.To>
@@ -289,17 +289,17 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </Assign>
-                          <ui:SaveImage DisplayName="Save Image" FileName="[&quot;C:\Users\Azureadmin3\Desktop\saksham\VM-SAP-Sales-Order-Automation-main\Screenshots\&quot;+Tim+&quot; Sales Order Business Exception.png&quot;]" sap:VirtualizedContainerService.HintSize="434,169.33333333333334" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[Screenshot]">
+                          <ui:SaveImage DisplayName="Save Image" FileName="[&quot;C:\Users\Azureadmin3\Documents\UiPath\SAP Sales Order RPA\Screenshots\&quot;+Tim+&quot; Sales Order Business Exception.png&quot;]" sap:VirtualizedContainerService.HintSize="354,169.33333333333334" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[Screenshot]">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:SaveImage>
-                          <ucas:UploadStorageFile FileResource="{x:Null}" TimeoutMS="{x:Null}" Destination="[Tim+&quot; Sales Order Business Exception.png&quot;]" DisplayName="Upload storage file" sap:VirtualizedContainerService.HintSize="434,268.6666666666667" sap2010:WorkflowViewState.IdRef="UploadStorageFile_1" Path="[&quot;C:\Users\Azureadmin3\Desktop\saksham\VM-SAP-Sales-Order-Automation-main\Screenshots\&quot;+Tim+&quot; Sales Order Business Exception.png&quot;]" StorageBucketName="Sales Order Exception">
+                          <ucas:UploadStorageFile FileResource="{x:Null}" TimeoutMS="{x:Null}" Destination="[Tim+&quot; Sales Order Business Exception.png&quot;]" DisplayName="Upload storage file" sap:VirtualizedContainerService.HintSize="354,268.6666666666667" sap2010:WorkflowViewState.IdRef="UploadStorageFile_1" Path="[&quot;C:\Users\Azureadmin3\Documents\UiPath\SAP Sales Order RPA\Screenshots\&quot;+Tim+&quot; Sales Order Business Exception.png&quot;]" StorageBucketName="Sales Order Exception">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ucas:UploadStorageFile>
