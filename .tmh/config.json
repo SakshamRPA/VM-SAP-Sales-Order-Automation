@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/yashyftljim/defaulttenant/testmanager_/",
+  "defaultProject": {
+    "id": "ecdd5948-554d-0000-df1a-0b479c7554a4",
+    "name": "SAP-Test-Suite",
+    "key": "SAP"
+  }
 }
